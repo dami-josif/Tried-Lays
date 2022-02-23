@@ -1,0 +1,130 @@
+body{
+  background-color: #fbb517;
+  width: 100%;
+} 
+  .yeee {
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    -webkit-animation: changer 5s ease-in-out  alternate infinite;
+            animation: changer 5s ease-in-out  alternate infinite;
+    padding-top: 20px;
+    margin-bottom: 30px;
+  }
+  
+  @-webkit-keyframes changer {
+    to {
+      background-image: url(image/ahhhh.jpg);
+    }
+    from {
+      background-image: url(image/video-preview.jpg);
+    }
+  }
+  
+  @keyframes changer {
+    to {
+      background-image: url(image/ahhhh.jpg);
+    }
+    from {
+      background-image: url(image/video-preview.jpg);
+    }
+  }
+
+.eye{
+    background-image: url(image/Wavy\ Original_0.png);
+    background-size: cover;
+    height: 700px;
+}
+
+.yeeg{
+  background-image: url(image/Wavy\ Original_0.png);
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  width: 1100px;
+}
+
+.yeeg h1{
+  font-size: 90px;
+  font-weight: bolder;
+  color: aliceblue;
+}
+
+.yeegh{
+  background-image: url(image/Stax\ SCO2.png);
+  background-size: cover;
+  background-position: center;
+  height: 750px;
+  width: 1100px;
+}
+
+.yeegh h1{
+  font-size: 90px;
+        font-weight: bolder;
+        color: aliceblue;
+}
+
+.yeeghh{
+    background-image: url(image/Stax\ SCO.png);
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    width: 1100px;
+}
+
+.yeeghh h1{
+  font-size: 100px;
+        font-weight: bolder;
+        color: aliceblue; 
+}
+
+#m{
+  position: relative;
+  left: 43%;
+  bottom: 126px;
+}
+
+#mo{
+  position: relative;
+  left: 46%;
+  bottom: 126px;
+}
+
+#mov{
+  position: relative;
+  left: 49%;
+  bottom: 126px;
+}
+
+#move{
+  position: relative;
+  left: 52.2%;
+  bottom: 126px;
+}
+
+.there{
+  display: flex;
+  list-style-type: none;
+  padding-left: 25%;
+}
+.yeah{
+  padding: 0 20px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: lighter;
+  color: black;
+}
+.yeah:hover{
+  border: 1px transparent;
+  height: 30px;
+  width: 100px;
+  padding: 10px;
+  background-color: #dc3545;
+  color: white;
+}
+#imggg{
+  height: 80px;
+  margin-left: 42%;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=index.css.map */
